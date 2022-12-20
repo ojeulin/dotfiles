@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/dem/.local/bin'
+let g:netrw_dirhist_2='/home/dem/Documents/matériel/PC/clavier ergodox-ez/qmk_firmware/keyboards/ergodox_ez/glow/keymaps/glow'
+let g:netrw_dirhist_1='/home/dem/.local/share/applications'

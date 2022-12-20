@@ -1,0 +1,19 @@
+{
+    "bg": "#002b36",
+    "text_secondary": "#586e75",
+    "emphasized_text": "#93a1a1",
+    "text": "#839496",
+    "focus": "#b58900",
+    "active": "#93a1a1",
+    "inactive": "#586e75",
+    "urgent":  "#d33682",
+    "yellow": "#b58900",
+    "orange": "#cb4b16",
+    "red": "#dc322f",
+    "magenta": "#d33682",
+    "violet": "#6c71c4",
+    "blue": "#268bd2",
+    "cyan": "#2aa198",
+    "green": "#859900",
+    "base02": "#073642"
+}

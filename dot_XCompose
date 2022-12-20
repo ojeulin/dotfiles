@@ -1,0 +1,64 @@
+# Include defaults from /usr/share/X11/locale/en_US.UTF-8/Compose
+include "%L"
+
+<Multi_key> <minus> <greater> : "→" U2192 # RIGHTWARDS ARROW
+<Multi_key> <Up> : "↑" U2191
+<Multi_key> <Right> : "→" U2192
+<Multi_key> <Left> : "←" U2190
+<Multi_key> <Down> : "↓" U2193
+
+<Multi_key> <Multi_key> <Up> : "⇑" U21D1
+<Multi_key> <Multi_key> <Right> : "⇒" U21D2
+<Multi_key> <Multi_key> <Left> : "⇐" U21D0
+<Multi_key> <Multi_key> <Down> : "⇓" U21D3
+<Multi_key> <Multi_key> <=> <Right> : "⇔" U21D4
+
+<Multi_key> <n> <o> : "№" U2116 # NUMERO SIGN
+
+# source : http://bepo.fr/wiki/Utilisateur:Robin
+
+#symboles mathématiques correspondant aux opérateurs arithmétiques
+<Multi_key> <Multi_key> <o> <+> : "⊕"        #CIRCLED PLUS 
+<Multi_key> <Multi_key> <o> <-> : "⊖"        #CIRCLED MINUS
+<Multi_key> <Multi_key> <o> <*> : "⊗"        #CIRCLED TIMES
+<multi_key> <multi_key> <o> </> : "⊘"        #circled division slash
+
+#syboles mathématique
+<Multi_key> <8> <8> : "∞"   U221E   # 8 8 INFINITY
+<Multi_key> <Multi_key> <s> : "√"            #SQUARE ROOT
+<Multi_key> <Multi_key> <3> <s> : "∛"        #CUBE ROOT
+<Multi_key> <Multi_key> <4> <s> : "∜"        #FOURTH ROOT
+<Multi_key> <Multi_key> <i> : "∫"            #INTEGRAL
+<Multi_key> <Multi_key> <2> <i> : "∬"        #DOUBLE INTEGRAL
+<Multi_key> <Multi_key> <3> <i> : "∭"        #TRIPLE INTEGRAL
+<Multi_key> <Multi_key> <4> <i> : "⨌"        #QUADRUPLE INTEGRAL
+<Multi_key> <Multi_key> <o> <i> : "∮"        #CONTOUR INTEGRAL
+<Multi_key> <Multi_key> <o> <2> <i> : "∯"    #SURFACE INTEGRAL
+<Multi_key> <Multi_key> <o> <3> <i> : "∰"    #VOLUME INTEGRAL
+<Multi_key> <Multi_key> <n> : "∇"            #NABLA
+<Multi_key> <Multi_key> <d> : "∂" U2202      # PARTIAL DIFFERENTIAL
+<Multi_key> <Multi_key> <slash> <o> : "∅"    #EMPTY SET
+
+<Multi_key> <Multi_key> <F> : "ƒ"            #FUNCTION (f is for "×"
+<Multi_key> <Multi_key> <R> : "ℜ"            #REAL NUMBER
+<Multi_key> <Multi_key> <I> : "ℑ"            #IMAGINARY
+<Multi_key> <Multi_key> <A> : "∀"            #FOR ALL
+<Multi_key> <Multi_key> <C> : "∁"            #COMPLEMENT
+<Multi_key> <Multi_key> <E> : "∃"            #THERE EXISTS
+<Multi_key> <Multi_key> <slash> <E> : "∄"    #THERE DOES NOT EXIST
+
+<Multi_key> <Multi_key> <asciitilde> <equal> : "≃"        #ASYMPTOTICALLY EQUAL TO
+<Multi_key> <Multi_key> <asciitilde> <asciitilde> : "≈"        #ALMOST EQUAL TO
+<Multi_key> <Multi_key> <less> <less> : "≪"  #MUCH LESS-THAN
+<Multi_key> <Multi_key> <greater> <greater> : "≫"        #MUCH GREATER-THAN
+
+#ensembles
+<Multi_key> <Multi_key> <e> <n> : "ℕ"        #NATURAL NUMBERS
+<Multi_key> <Multi_key> <e> <z> : "ℤ"        #INTEGERS
+<Multi_key> <Multi_key> <e> <q> : "ℚ"        #RATIONAL NUMBERS
+<Multi_key> <Multi_key> <e> <r> : "ℝ"        #REAL NUMBER
+<Multi_key> <Multi_key> <e> <c> : "ℂ"        #COMPLEX NUMBERS
+<Multi_key> <Multi_key> <e> <p> : "ℙ"        #PRIME NUMBERS
+<Multi_key> <Multi_key> <e> <e> : "∈"        #ELEMENT OF
+<Multi_key> <Multi_key> <e> <slash> <e> : "∉"#NOT AN ELEMENT OF
+<Multi_key> <Multi_key> <c> <e> : "∋"        # U+220B CONTAINS AS MEMBER
