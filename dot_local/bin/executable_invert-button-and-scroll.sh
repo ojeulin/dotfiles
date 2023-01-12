@@ -1,5 +1,8 @@
 #!/usr/bin/env zsh
 
+# modèle du travail
+xinput set-button-map "Kensington Slimblade Trackball" 3 2 1 5 4
+# modèle de la maison
 xinput set-button-map "Kensington Kensington Slimblade Trackball" 3 2 1 5 4
 
 # pour le moonlander, il y a 2 périphériques dans Virtual core pointer,
