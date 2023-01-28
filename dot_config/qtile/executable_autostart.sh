@@ -18,15 +18,6 @@ keepassxc &
 # with the most recent activity.
 playerctld daemon &
 
-/home/dem/.local/bin/invert-button-and-scroll.sh &
+~/bin/invert-button-and-scroll.sh &
+~/bin/set-wallpaper.sh &
 
-# display random images every N minutes
-set_wallpaper () {
-	local dir_img=$(readlink -f ~/Images/fonds\ d\'écran)
-	while :
-	do
-		feh --quiet --no-fehbg --bg-max --recursive --randomize "$dir_img"
-		sleep 1m
-	done
-}
-set_wallpaper &

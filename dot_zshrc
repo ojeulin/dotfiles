@@ -114,10 +114,6 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 #alias zshconfig="nvim ~/.zshrc"
-alias td=dark-theme.sh
-alias tl=light-theme.sh
-alias ip="ip -color=auto"
-alias icat="kitty +kitten icat --align=left"
 
 # bindkey
 bindkey "^U"    backward-kill-line
