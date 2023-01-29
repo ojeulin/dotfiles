@@ -18,6 +18,6 @@ keepassxc &
 # with the most recent activity.
 playerctld daemon &
 
-~/bin/invert-button-and-scroll.sh &
-~/bin/set-wallpaper.sh &
+/home/dem/bin/invert-button-and-scroll.sh &
+/home/dem/bin/set-wallpaper.sh &
 
