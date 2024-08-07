@@ -1,1 +1,1 @@
-Config files handled with `chezmoi`.
+Config files handled with `chezmoi` https://www.chezmoi.io/.
